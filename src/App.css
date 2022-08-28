@@ -1,3 +1,30 @@
+.card_body {
+  flex-direction: row;
+  height: 100%;
+  width: 100px;
+  margin: auto;
+  padding: 1px;
+  text-align: center;
+  flex: 3;
+  box-shadow: 10px 5px 5px  #282c34;
+}
+.card_body2 {
+  border: black 1px solid;
+  margin:auto;
+  margin-top: 40px;
+  padding: 1px;
+  text-align: center;
+  box-shadow: 5px 5px 2px  #282c34;
+}
+body{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom right,#1c1f1e ,#382b378f ,#3c2f44 );
+}
 .App {
   text-align: center;
 }
